@@ -1,0 +1,84 @@
+:root {
+    --color-primary: #333333;
+    --color-secondary : #E2E2E2;
+    --bg-color : #F1F1F1;
+    --font-primary : "Be Vietnam Pro", sans-serif;
+    --font-secondary : "Lora", serif;
+}
+body{
+    margin: 0;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+header{
+    background-color: #FFFFFF;
+    height: 100px;
+    margin-top: 20px;
+    position: sticky;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin-bottom: 33px
+}
+.box{
+    font-family: var(--font-primary);
+    font-weight: 700;
+    font-size: 20px;
+    color: var(--color-primary);
+    background-color: var(--color-secondary);
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+.header .inner-wrap{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.header .inner-logo{
+    width: 200px;
+    height: 60px;
+    border-radius: 8px;
+    background-color: #E2E2E2;
+    gap: 20px 83px;
+    
+}
+.header .inner-menu{
+    width: 820px;
+    height: 34px;
+    margin: 33 0px;
+    border-radius: 8px;
+    padding: 0 20px;
+    background-color: #E2E2E2;
+}
+.inner-button{
+    width: 120px;
+    height: 42px;
+    border-radius: 8px;
+    background-color: #E2E2E2;
+}
+.section1{
+    background-color: #F1F1F1;
+    height: 680px;
+}
+.section2{
+    background-color: #FFFFFF;
+    height: 1150px;
+}
+.section3{
+    background-color: #F1F1F1;
+    height: 580px;
+}
+.section4{  
+    background-color: #FFFFFF;
+    height: 651.928px;
+}
+footer{
+    background-color: #D9D9D9;
+    height: 72px;
+}
